@@ -327,39 +327,39 @@ def repeat():
 
 """The next lines of text define the icons used in the program
 All icons are taken from The Noun Project by different sources: 365; Viktor Vorobyev; Fantastic,IN"""
-volume_set = Image.open('volume_img.png')
+volume_set = Image.open('./images/volume_img.png')
 volume_set = volume_set.resize((20, 20), Image.ANTIALIAS)
 volume_set = ImageTk.PhotoImage(volume_set)
 
-mute_set = Image.open('no_volume_img.png')
+mute_set = Image.open('./images/no_volume_img.png')
 mute_set = mute_set.resize((20, 20), Image.ANTIALIAS)
 mute_set = ImageTk.PhotoImage(mute_set)
 
-play_set = Image.open('play_img.png')
+play_set = Image.open('./images/play_img.png')
 play_set = play_set.resize((30, 30), Image.ANTIALIAS)
 play_set= ImageTk.PhotoImage(play_set)
 
-pause_set = Image.open('pause_img.png')
+pause_set = Image.open('./images/pause_img.png')
 pause_set = pause_set.resize((30, 30), Image.ANTIALIAS)
 pause_set= ImageTk.PhotoImage(pause_set)
 
-delete_set = Image.open('delete_img.png')
+delete_set = Image.open('./images/delete_img.png')
 delete_set = delete_set.resize((30, 30), Image.ANTIALIAS)
 delete_set= ImageTk.PhotoImage(delete_set)
 
-repeat_set = Image.open('repeat_img.png')
+repeat_set = Image.open('./images/repeat_img.png')
 repeat_set = repeat_set.resize((20, 20), Image.ANTIALIAS)
 repeat_set= ImageTk.PhotoImage(repeat_set)
 
-next_set = Image.open('next_img.png')
+next_set = Image.open('./images/next_img.png')
 next_set = next_set.resize((20, 20), Image.ANTIALIAS)
 next_set= ImageTk.PhotoImage(next_set)
 
-previous_set = Image.open('previous_img.png')
+previous_set = Image.open('./images/previous_img.png')
 previous_set = previous_set.resize((20, 20), Image.ANTIALIAS)
 previous_set= ImageTk.PhotoImage(previous_set)
 
-cancel_set = Image.open('cancel_img.png')
+cancel_set = Image.open('./images/cancel_img.png')
 cancel_set = cancel_set.resize((30, 30), Image.ANTIALIAS)
 cancel_set= ImageTk.PhotoImage(cancel_set)
 
